@@ -2442,7 +2442,7 @@ form .error_f_phone .error {
   .formblock__form .ajax_form .btn--blue {
     margin: 0 auto;
     margin-top: 15px;
-    padding: 11px 95px 10px;
+    padding: 11px 90px 10px;
   }
   .card_title,
   .trust__text-text {
@@ -7061,8 +7061,8 @@ input[type='time']:after {
     right: calc(50% - 22px);
     width: 40px;
     height: 40px;
-    background: url(https://sekret-trezvosti.ru/assets/new/images/arrow-down.svg)
-      center/contain no-repeat;
+    background: url(../../assets/new/images/arrow-down.svg) center/contain
+      no-repeat;
   }
   .advantages__item,
   .nb__footer__btn {
