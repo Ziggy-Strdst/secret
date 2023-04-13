@@ -1,0 +1,12 @@
+User-agent: *
+Host: https://sekret-trezvosti.ru
+Sitemap: https://sekret-trezvosti.ru/xml/sekret-trezvosti.ru.xml
+Disallow: /stati/
+Disallow: /netcat/
+Disallow: /promo/
+Disallow: /search/
+Disallow: /policy/
+Disallow: /regions/
+Disallow: /regions/*
+Disallow: /*?*
+Sitemap: https://sekret-trezvosti.ru/xml/sekret-trezvosti.ru.xml

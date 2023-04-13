@@ -1,0 +1,12 @@
+@media screen and (max-width:830px){
+.menu{top:185px;}
+}
+@media screen and (max-width:620px){
+.menu{top:150px;}
+}
+@media  screen and (max-width: 992px){
+.hero {padding-top: 120px;}
+}
+@media  screen and (max-width: 500px){
+.hero {padding-top: 100px;}
+}
