@@ -1876,13 +1876,13 @@ section.s-rating .rating .block__content {
 }
 @media (max-width: 768px) {
   .howworks__item:nth-child(2)::before {
-    content: '1';
-  }
-  .howworks__item:nth-child(3)::before {
     content: '2';
   }
-  .howworks__item:nth-child(4)::before {
+  .howworks__item:nth-child(3)::before {
     content: '3';
+  }
+  .howworks__item:nth-child(4)::before {
+    content: '4';
   }
   .howworks__item:nth-child(5)::before {
     content: '4';
