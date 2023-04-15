@@ -1011,48 +1011,6 @@
               <div class="howworks__text">Оплата и медицинские процедуры</div>
             </div>
           </div>
-          <!-- <div class="howworks__list">
-            <div
-              class="howworks__item fadeInUp"
-              style="visibility: visible; animation-name: fadeInUp"
-            >
-              <div class="howworks__image">
-                <img src="assets/new/images/block2/icon2-1.png alt="иконка"
-                loading="lazy" />
-              </div>
-              <div class="howworks__text">Обращение по оказанию помощи</div>
-            </div>
-            <div
-              class="howworks__item fadeInUp"
-              style="visibility: visible; animation-name: fadeInUp"
-            >
-              <div class="howworks__image">
-                <img src="assets/new/images/block2/icon2-2.png alt="иконка"
-                loading="lazy" />
-              </div>
-              <div class="howworks__text">Первичный сбор анамнеза</div>
-            </div>
-            <div
-              class="howworks__item fadeInUp"
-              style="visibility: visible; animation-name: fadeInUp"
-            >
-              <div class="howworks__image">
-                <img src="assets/new/images/block2/icon2-3.png alt="иконка"
-                loading="lazy" />
-              </div>
-              <div class="howworks__text">Отправление экипажа</div>
-            </div>
-            <div
-              class="howworks__item fadeInUp"
-              style="visibility: visible; animation-name: fadeInUp"
-            >
-              <div class="howworks__image">
-                <img src="assets/new/images/block2/icon2-4.png alt="иконка"
-                loading="lazy" />
-              </div>
-              <div class="howworks__text">Оплата и лечение больного</div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -1072,7 +1030,12 @@
               <div class="formblock__form-title">
                 Мы поможем подобрать подходящий вариант лечения
               </div>
-              <form class="ajax_form" action="index.html#" method="post">
+              <form
+                class="ajax_form"
+                enctype="multipart/form-data"
+                action="/netcat/add.php"
+                method="post"
+              >
                 <input
                   name="f_urlMessage"
                   type="hidden"
@@ -1089,9 +1052,9 @@
                   />
                   <span class="error_f_phone error"></span>
                 </div>
-                <a class="btn btn--blue open-modal" href="#modalConsult"
-                  ><span>Заказать звонок</span></a
-                >
+                <button class="btn btn--blue open-modal" href="#modalConsult">
+                  <span>Заказать звонок</span>
+                </button>
                 <input
                   type="hidden"
                   name="af_action"
@@ -1283,9 +1246,10 @@
             </div>
             <div class="formblock__form">
               <form
-                action="index.html#"
-                method="post"
                 class="form__option ajax_form"
+                enctype="multipart/form-data"
+                action="/netcat/add.php"
+                method="post"
               >
                 <input
                   name="f_urlMessage"
@@ -1347,24 +1311,12 @@
                   </div>
                   <div class="col-md-6 col-12">
                     <p class="formblock__form-title">Дата посещения</p>
-                    <input
-                      name="f_date"
-                      type="date"
-                      value=""
-                      class="date"
-                      placeholder="01.12.2022"
-                    />
+                    <input name="f_date" type="date" value="" class="date" />
                     <span class="error_f_date"></span>
                   </div>
                   <div class="col-md-6 col-12">
                     <p class="formblock__form-title">Время посещения</p>
-                    <input
-                      name="f_time"
-                      type="time"
-                      value=""
-                      class="time"
-                      placeholder="00.00.00"
-                    />
+                    <input name="f_time" type="time" value="" class="time" />
                     <span class="error_f_time"></span>
                   </div>
                   <div class="col-12">
@@ -1380,12 +1332,6 @@
                         value=""
                         class="info"
                       />
-                      <!-- <a
-                        href="javascript:void(0);"
-                        id="form__info_button"
-                        class="formblock__form-close"
-                      >
-                      </a> -->
                     </div>
                   </div>
                   <div class="col-12">
@@ -1395,8 +1341,10 @@
                     </p>
                   </div>
                   <div class="col-12">
-                    <a class="btn btn--blue open-modal" href="#modalConsult"
-                      ><span>Отправить</span></a
+                    <buttom
+                      class="btn btn--blue open-modal"
+                      href="#modalConsult"
+                      ><span>Отправить</span></buttom
                     >
                   </div>
                 </div>

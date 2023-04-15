@@ -8220,3 +8220,8 @@ ul.mobile-service__list li .nd ul li:before {
 .text-block_new-img {
   width: 100%;
 }
+.time,
+.date {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
