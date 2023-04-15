@@ -2479,7 +2479,9 @@ form .error_f_phone .error {
     padding-right: 0;
   }
   .formblock__inputs .col-12 .btn--blue {
-    padding: 11px 115px 10px;
+    padding: 11px 110px 10px;
+    display: flex;
+    justify-content: center;
   }
 }
 .s-license-index .license .license-slider-index {
@@ -8222,6 +8224,19 @@ ul.mobile-service__list li .nd ul li:before {
 }
 .time,
 .date {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input[type='date'] {
+  display: block;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  min-height: 1.2em;
+}
+input[type='time'] {
+  display: block;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  min-height: 1.2em;
 }
